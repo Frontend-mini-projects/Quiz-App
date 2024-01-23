@@ -1,5 +1,5 @@
 # Codedamn Projects - Quiz App
-![main image](https://raw.githubusercontent.com/codedamn-projects/quiz-app/master/images/startcard.png)
+![6](https://github.com/Frontend-mini-projects/Quiz-App/assets/63789702/870627c3-2979-4e21-81d1-7b37223ff96a)
 
 ## Hello developer!
 
