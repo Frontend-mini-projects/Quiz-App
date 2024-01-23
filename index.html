@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Codedamn - Quiz Project</title>
+
+</head>
+
+<body>
+    <nav id="navbar">
+
+        <a id='leaderboard'>View Highscores <i class="fas fa-hand-point-left fa-lg"></i></a>
+        <p>Timer: <span id="remain-time"></span></p>
+    </nav>
+
+
+    <main>
+        <div class="container">
+
+            <div id="starter">
+
+                <h2>Coding Quiz Challange</h2>
+                <p>Try to answer to following code-related questions within time </p>
+                <p>Keep in mind that incorrect answer will penalize your score/time by ten second! </p>
+                <button id="start-quiz">Start Quiz</button>
+
+            </div>
+
+            <div id="question-options" class="d-none">
+
+                <ul class="question">
+                    <h2 id="question">Commanly used data types do not include:</h2>
+                </ul>
+
+                <ol id="options">
+                    <!-- <li id="option-1" class="check-option">1. string</li> -->
+                </ol>
+
+                <div id="correct-incorrect">
+                    <hr>
+                    <p id="result">test</p>
+                </div>
+
+            </div>
+
+            <div id="enter-initials" class="bold d-none">
+                <h1>All Done!</h1>
+                <p>your final score is: <span id="current-score">00</span></p>
+                <form action="">
+                    <label for="initial">Enter Initials : </label>
+                    <input type="text" id="name" required>
+
+                    <button type="submit" id="submit-initials">Submit</button>
+                </form>
+
+            </div>
+
+            <div id="high-score" class="d-none">
+                <h2>Highscores</h2>
+                <ol id="high-score-list">
+                    <!-- <li>cd-9</li> -->
+                    <span><u>Set a new High Score</u></span>
+                </ol>
+
+                <div class="buttons">
+                    <button id="go-back-btn">Go Back</button>
+                    <button id="clear-highscores-btn">Clear Highscores</button>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+
+
+    <script src="assets/script.js"></script>
+</body>
+
+</html>

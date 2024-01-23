@@ -1,0 +1,106 @@
+/* Global css */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+/* navbar css */
+#navbar{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: #218380;
+    padding: 1.2rem;
+    font-size: 1rem;
+   
+}
+nav p{
+    margin: 0;
+    margin-right: 1rem;
+}
+
+/* main section css */
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 90vh;
+
+}
+/* box css */
+.container{
+    max-width: 70%;
+    padding: 1rem;
+    border: 2px solid lightgrey;
+    border-radius: 1.2rem;
+    box-shadow: 7px 7px 3px 0px rgb(207, 205, 205);
+}
+.container h2,p,button{
+    margin: 1rem;
+}
+
+/* start quiz button css */
+.container button{
+    background-color: #218380;
+    padding: 1.01rem;
+    border: none;
+    border-radius: 0.7rem;
+    color: white;
+    cursor: pointer;
+}
+
+/* question option css */
+#question-options, #final-score{
+    display: none;
+}
+#correct-incorrect{
+    visibility: hidden;
+}
+#options{
+    margin: 1rem;
+} 
+#options li{
+    /* border: 2px solid green; */
+    margin: 0.4rem 0.4rem 0.4rem 1rem;    
+    padding: 0.4rem 0.4rem 0.4rem 0.5rem;
+    
+    background-color: #218380;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Enter initials css */
+#enter-initials input{
+    /* border: 2px solid red; */
+    width: 30%;
+    padding: 1%;
+}
+
+
+/* highscore page css */
+#high-score{
+    list-style: inside;
+}
+#high-score ol{
+    padding-left: 2rem;
+    font-size: larger;
+}
+
+/* leaderboard css */
+#leaderboard{
+    cursor: pointer;
+}
+
+/* generic css */
+.bold{
+    font-weight: bold;
+}
+
+.d-none{
+    display: none;
+}
